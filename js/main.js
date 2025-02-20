@@ -2009,7 +2009,7 @@ $(document).on("click", 'a[href^="#"]', function (event) {
 				// Show 'image' defined in question object
 
 				if (typeof question.image !== "undefined") {
-					$("#image img").attr("src", question.image);
+					$("#image img").attr("src", "https://ricky-11254.github.io/aptis1/" + question.image);
 					$("#image").show();
 				} else {
 					$("#image").hide();
